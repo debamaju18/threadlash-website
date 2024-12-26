@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread Lush - Handcrafted Bangles</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #d4af37;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 1.5em;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .tagline {
+            font-size: 1em;
+        }
+
+        .parallax {
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        #home {
+            background-image: url('WhatsApp Image 2024-12-26 at 22.31.17.jpeg');
+        }
+
+        #custom {
+            background-image: url('WhatsApp Image 2024-12-26 at 22.44.00.jpeg'); 
+        }
+
+        #contact {
+            background-image: url('WhatsApp Image 2024-12-26 at 22.28.37.jpeg'); 
+        }
+
+        .content {
+            text-align: center;
+            padding: 2em;
+        }
+
+        .animated-text {
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            background-color: #127752;
+            position: sticky;
+            top: 0;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b8860b;
+        }
+
+        footer {
+            background-color: #d4af37;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Thread Lush
+        <div class="tagline">Hand crafted custom bangles made with love!</div>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#custom">Custom</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="home" class="parallax">
+        <div class="content">
+            <h1 class="animated-text">Traditional Handcrafted Bangles</h1>
+        </div>
+    </div>
+
+    <div id="custom" class="parallax">
+        <div class="content">
+            <h1 class="animated-text">Custom Bangles Available</h1>
+            <p>Choose your colors, styles, and patterns to create a unique set just for you!</p>
+        </div>
+    </div>
+
+    <div id="contact" class="parallax">
+        <div class="content">
+            <h1 class="animated-text">Contact Us</h1>
+            <p>To order:</p>
+            <p>Send us a DM on Instagram: <a href="https://instagram.com/thread_lush" target="_blank">@thread_lush</a></p>
+            <p>Email us at: <a href="mailto:threadlush0618@gmail.com">threadlush0618@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
